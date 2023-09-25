@@ -37,7 +37,7 @@ const Header = () => {
                 </Typography>
             </Box>
             <Box component="main" maxHeight="450px">
-                <Video src={bannerVideo} autoPlay muted playsInline loop />
+                <Video src={`.${bannerVideo}`} autoPlay muted playsInline loop />
             </Box>
             <Box
                 sx={{

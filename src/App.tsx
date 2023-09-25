@@ -12,7 +12,7 @@ function App() {
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "space-between",
-                backgroundImage: `url(${BackgroundBody})`,
+                backgroundImage: `url(.${BackgroundBody})`,
                 backgroundRepeat: "repeat",
                 backgroundSize: "contain",
             }}
